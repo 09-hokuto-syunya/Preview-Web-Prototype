@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circulator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/calc.js" type="module"></script>
+    <!-- math.jsライブラリのインポート -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjs@11/lib/browser/math.js"></script>
+    <!-- ブラウザが勝手にアイコン取りに行ってないない騒ぎ出すので対応 -->
+    <link rel="icon" href="data:,">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">
+            四則演算計算機
+        </h1>
+    </header>
+    <main>
+        <!-- 計算式表示画面 -->
+        <div class="syw-disp">
+            <div id="syw-disp-text" class="output-text"></div>
+        </div>
+
+        <!-- 入出力画面 -->
+        <div class="io-disp">
+            <div id="io-disp-text" class="output-text"></div>
+        </div>
+
+        <!-- ボタンまわり -->
+        <div class="button-ui">
+            <button class="button" id="7">7</button>
+            <button class="button" id="8">8</button>
+            <button class="button" id="9">9</button>
+            <button class="button" id="divi">÷</button>
+            <button class="button" id="4">4</button>
+            <button class="button" id="5">5</button>
+            <button class="button" id="6">6</button>
+            <button class="button" id="mul">×</button>
+            <button class="button" id="1">1</button>
+            <button class="button" id="2">2</button>
+            <button class="button" id="3">3</button>
+            <button class="button" id="sub">-</button>
+            <button class="button" id="BS">BS</button>
+            <button class="button" id="0">0</button>
+            <button class="button" id="equal">=</button>
+            <button class="button" id="add">+</button>
+        </div>
+        <div class="ac-button">
+            <button class="button" id="AC">AC</button>
+        </div>
+
+        <div class="instruction">
+            <div id="instruction-text">
+                <p>
+                    aaaaaaaaaaaaaaa
+                    <br>
+                    bbbbbbbbbbbbbbb
+                    <br>
+                    ccccccccccccccc
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <small>Designed by Hokuto</small>
+    </footer>
+</body>
+
+</html>
