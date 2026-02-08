@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body {
+    background-color: #F6FAF5;
+}
+
+.syw-disp {
+    width: 600px;
+    height: 64px;
+    margin: 0 auto 60px;
+    background-color: #ABBAA9;
+    position:relative
+}
+
+#syw-disp-text {
+    font-size: 32px;
+    padding: 16px;
+    text-align: left;
+    color: #2C2319;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 560px;
+    overflow-x: auto;
+    /* 横スクロールを有効化 */
+    overflow-y: hidden;
+    /* 縦スクロールは非表示 */
+    white-space: nowrap;
+}
+
+.io-disp {
+    width: 600px;
+    height: 120px;
+    margin: 0 auto 32px;
+    background-color: #ABBAA9;
+    position:relative
+}
+
+#io-disp-text {
+    font-size: 60px;
+    padding: 16px;
+    text-align: left;
+    color: #2C2319;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 560px;
+    overflow-x: auto;
+    /* 横スクロールを有効化 */
+    overflow-y: hidden;
+    /* 縦スクロールは非表示 */
+    white-space: nowrap;
+}
+
+.button-ui {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.button {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 64px;
+}
+
+.ac-button {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+footer {
+    text-align: center;
+}
+
+.instruction-text {
+    font-size: 80px;
+}
